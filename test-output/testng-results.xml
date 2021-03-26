@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-26T03:18:45 GMT-07:00" name="Default suite" finished-at="2021-03-26T03:20:06 GMT-07:00" duration-ms="80950">
+    <groups>
+    </groups>
+    <test started-at="2021-03-26T03:18:45 GMT-07:00" name="Default test" finished-at="2021-03-26T03:20:06 GMT-07:00" duration-ms="80950">
+      <class name="com.aequilibrium.test.LogIn.TestLogIn">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:18:45 GMT-07:00" name="setExtent" finished-at="2021-03-26T03:18:46 GMT-07:00" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="initBrowser(java.lang.String)[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:18:46 GMT-07:00" name="initBrowser" finished-at="2021-03-26T03:18:56 GMT-07:00" duration-ms="10348" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:19:01 GMT-07:00" name="loginTest" data-provider="LoginData" finished-at="2021-03-26T03:19:14 GMT-07:00" duration-ms="12478" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:19:14 GMT-07:00" name="loginTest" data-provider="LoginData" finished-at="2021-03-26T03:19:35 GMT-07:00" duration-ms="21549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:19:35 GMT-07:00" name="loginTest" data-provider="LoginData" finished-at="2021-03-26T03:19:45 GMT-07:00" duration-ms="9749" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:19:45 GMT-07:00" name="loginTest" data-provider="LoginData" finished-at="2021-03-26T03:19:52 GMT-07:00" duration-ms="6795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:19:52 GMT-07:00" name="loginTest" data-provider="LoginData" finished-at="2021-03-26T03:19:58 GMT-07:00" duration-ms="6738" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Testing2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[invalid]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="loginTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:19:58 GMT-07:00" name="loginTest" data-provider="LoginData" finished-at="2021-03-26T03:20:05 GMT-07:00" duration-ms="6707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.aequilibrium.test.LogIn.TestLogIn@1ba9117e]" started-at="2021-03-26T03:20:05 GMT-07:00" name="endReport" finished-at="2021-03-26T03:20:06 GMT-07:00" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.aequilibrium.test.LogIn.TestLogIn -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
